@@ -14,6 +14,6 @@ body{background-color:#ededed;color:#000}
 #length-slider{background:url('images/length-slider.png')}
 #effort-slider{background:url('images/effort-slider.png')}
 #length-pointer,#effort-pointer{cursor:pointer;left:12px;position:absolute;top:0}
-#arrow{left:16px;position:absolute;top:-9px}
+#arrow{left:15px;position:absolute;top:-9px}
 #button,#button-disabled{cursor:pointer;display:block;margin:0 auto}
 #button-disabled{display:none}
