@@ -1,12 +1,12 @@
 @charset 'UTF-8';
-body{background-color:#ededed;color:#000}
+body{background-color:#fff;color:#333}
 #github-ribbon{border:0;position:absolute;right:0;top:0}
-#main{font-family:'Droid Sans',Arial,sans-serif;font-size:14px;margin:25px auto;text-align:center;width:700px}
+#main{font-family:Helvetica,Arial,sans-serif;font-size:14px;margin:25px auto;text-align:center;width:700px}
 #main a{color:#4183c4;font-weight:bold;text-decoration:none}
 #main a:hover{text-decoration:underline}
-#main h1{color:#666;font-family:'Droid Serif',serif;font-size:25px;font-weight:normal}
+#main h1{color:#666;font-family:Georgia,'Times New Roman',serif;font-size:25px;font-weight:normal}
 #main img{border:0}
-#password{font-family:'Droid Serif',serif;font-size:50px;letter-spacing:1px;padding:20px 0}
+#password{font-family:Menlo,Monaco,'Bitstream Vera Sans Mono','Courier New',monospace;font-size:50px;letter-spacing:1px;padding:20px 0}
 #password,#main p{margin:40px auto;text-align:center}
 #main table{margin:5px auto 20px auto}
 #main td:first-child{text-align:right;vertical-align:top}
@@ -15,5 +15,4 @@ body{background-color:#ededed;color:#000}
 #effort-slider{background:url('images/effort-slider.png')}
 #length-pointer,#effort-pointer{cursor:pointer;left:12px;position:absolute;top:0}
 #arrow{left:15px;position:absolute;top:-9px}
-#button,#button-disabled{cursor:pointer;display:block;margin:0 auto}
-#button-disabled{display:none}
+#button{cursor:pointer;display:block;margin:0 auto}

@@ -9,8 +9,6 @@ var CFPG = {
         this.es = document.getElementById('effort-slider');
         this.ep = document.getElementById('effort-pointer');
         this.ar = document.getElementById('arrow');
-        this.bt = document.getElementById('button');
-        this.bd = document.getElementById('button-disabled');
         var self = this;
         this.ls.onmousedown = function(e)
         {
@@ -48,8 +46,6 @@ var CFPG = {
     },
     clk: function()
     {
-        this.bt.style.display = 'none';
-        this.bd.style.display = 'block';
         var t = setTimeout('CFPG.gen()', 0);
     },
     gen: function()
@@ -301,8 +297,6 @@ var CFPG = {
         }
         password = password.replace('<', '&lt;').replace('>', '&gt;');
         this.ps.innerHTML = password;
-        this.bd.style.display = 'none';
-        this.bt.style.display = 'block';
     },
     spl: function(x)
     {
