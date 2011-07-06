@@ -2,10 +2,11 @@
 /**
  * Carpus Friendly Password Generator.
  *
- * The Carpus Friendly Password Generator generates secure, easy-to-type passwords for QWERTY
- * keyboards. Typing effort of the generated passwords is calculated based on the CarpalX Typing
- * Effort Model <http://mkweb.bcgsc.ca/carpalx/?typing_effort>. Some of the logic used in CFPG was
- * derived from code in CarpalX which is copyright 2002-2009 Martin Krzywinski <martink@bcgsc.ca>.
+ * The Carpus Friendly Password Generator uses a quantitative typing effort model to generate secure
+ * passwords that are measurably easy-to-type (a.k.a. carpus friendly) on standard QWERTY keyboards.
+ * Typing effort of the generated passwords is calculated based on the CarpalX Typing Effort Model
+ * <http://mkweb.bcgsc.ca/carpalx/?typing_effort>. Some of the logic used in CFPG was derived from
+ * code in CarpalX which is copyright 2002-2009 Martin Krzywinski <martink@bcgsc.ca>.
  *
  * PHP version 5
  *
